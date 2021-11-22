@@ -1,11 +1,15 @@
 package com.kobeissidev.rmswipe.presentation.character.composables.header
 
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons.Filled
 import androidx.compose.material.icons.Icons.Outlined
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.outlined.Favorite
 import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -52,6 +56,7 @@ fun MainHeader(viewModel: CharacterViewModel = hiltViewModel()) {
                     }
                 }
             }
+            Spacer(modifier = Modifier.width(16.dp))
         }
     )
 
