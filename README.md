@@ -25,7 +25,13 @@ Tinder-like Rick and Morty app written with Jetpack Compose.
 </ol>
   
 ## Screenshots:
-<p>Coming soon</p>
+<p>  
+  <img src="https://github.com/kobeissi2/RMSwipe/blob/main/screenshots/Splash.png" width="200" title="Splash"/>
+  <img src="https://github.com/kobeissi2/RMSwipe/blob/main/screenshots/Loading.png" width="200" title="Loading"/>
+  <img src="https://github.com/kobeissi2/RMSwipe/blob/main/screenshots/Main.png" width="200" title="Main"/>
+  <img src="https://github.com/kobeissi2/RMSwipe/blob/main/screenshots/Liked.png" width="200" title="Liked"/>
+  <img src="https://github.com/kobeissi2/RMSwipe/blob/main/screenshots/Dislike.png" width="200" title="Dislike"/>
+</p>
 
 #### Known Bugs/Issues:
-<p>N/A</p>
+<p>Images aren't the best quality but that is what the API provides</p>
